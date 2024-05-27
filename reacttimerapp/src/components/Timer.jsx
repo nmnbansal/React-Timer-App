@@ -20,7 +20,7 @@ export const Timer = () => {
         };
 
         if (isRunning) {
-            timerId = setInterval(tick, 1);
+            timerId = setInterval(tick, 1000);
         } else {
             clearInterval(timerId);
         }
